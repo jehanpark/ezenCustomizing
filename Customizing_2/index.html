@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section id="wrap">
+    <main>
+      <div class="logo">
+        <img src="./img/logo.png" alt="logo">
+      </div>
+      <button id="loginbtn">회원가입</button>
+      <article id="login">
+      <label for="email">E-mail</label>
+      <input type="email" name="emali" id="email" placeholder="이메일을 입력하세요">
+      <label for="password">비밀번호</label>
+      <input type="password" name="password" id="password" placeholder="비밀 번호를 입력하세요">
+      <label for="password">비밀번호 2차 확인</label>
+      <input type="password" name="emali" id="password2" placeholder="비밀번호를 확인하세요">
+      <form action="http://localhost:3001" method="get">
+        <div id="calender">
+          <select name="nation" id="nation">
+            <option value="nation" disabled>국적</option>
+            <option value="nation">대한민국</option>
+            <option value="nation">미국</option>
+            <option value="nation">일본</option>
+            <option value="nation">중국</option>
+            <option value="nation">필리핀</option>
+            <option value="nation">호주</option>
+            <option value="nation">베트남</option>
+            <option value="nation">러시아</option>
+            <option value="nation">프랑스</option>
+            <option value="nation">이탈리아</option>
+          </select>
+          <select name="nation" id="nation">
+            <option value="nation" disabled>성별</option>
+            <option value="nation">여자</option>
+            <option value="nation">남자</option>
+          </select>
+        </div>
+      </form>
+      <article class="inner_contents check">
+        <!-- <div>
+          <div>
+            <input type="checkbox" name="auth" id="auth" />
+            <label for="auth">이용약관을 검토했으며 이에 동의합니다.</label>
+          </div>
+          <div>
+            <input type="checkbox" name="private" id="private" />
+            <label for="private">개인정보 처리방침에 동의합니다.</label>
+          </div>
+        </div> -->
+        <button id="footerbtn">로그인</button>
+      </article>
+              </div>
+            </article>
+    </article>
+    </main>
+</body>
+</html>
